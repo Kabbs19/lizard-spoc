@@ -16,4 +16,11 @@ function getComputerChoice() {
   }
 }
 
+function getHumanChoice() {
+
+  let userInput = prompt("Type Rock, Paper or Scissors");
+
+  return userInput.toLowerCase();
+}
+
 
